@@ -1,0 +1,56 @@
+/* IMCCalculadora.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ff6f61;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+  }
+  
+  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff3e2e;
+  }
+  
+  .imc-result {
+    margin-top: 20px;
+  }
+  
+  .imc-result h2 {
+    color: #ff6f61;
+  }
+  
+  .imc-result p {
+    font-size: 1.2em;
+  }
+  
